@@ -267,4 +267,101 @@ span{
         margin-top: 4rem;
     }
 }
+/* Contact Section */
+.contact {
+    padding: 5rem 9%;
+    background-color: #161616;
+    color: white;
+}
+
+.contact .section-title {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #b74b4b;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h3, .contact-form h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #b74b4b;
+}
+
+.contact-info p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info ul li {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul li i {
+    margin-right: 1rem;
+    color: #b74b4b;
+}
+
+.contact-info ul li a {
+    color: #b74b4b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info ul li a:hover {
+    color: white;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    background-color: #333;
+    color: white;
+    resize: none;
+}
+
+.contact-form form .btn {
+    align-self: flex-start;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    transform: scale(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
 
