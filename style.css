@@ -30,11 +30,13 @@ header{
     width: 100%;
     padding: 1rem 9%;
     background-color: transparent;
-    filter: drop-shadow(10px);
+    backdrop-filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    overflow-x: auto;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -73,11 +75,11 @@ nav a.active{
         top: 0;
         right: 0;
         width: 100%; /* Ensures the navigation bar spans the entire width */
-        background-color: #161616;
+        background-color: #040303;
         padding: 1rem;
         justify-content: center; /* Centers the navigation links */
         border-left: none; /* Removes the border */
-        border-bottom: 3px solid #b74b4b; /* Keeps the bottom border */
+        border-bottom: 3px solid #ac9f9f; /* Keeps the bottom border */
     }
     nav.active{
         display: block;
@@ -143,15 +145,15 @@ span{
     box-shadow: 0 0 25px solid #b74b4b;
     cursor: pointer;
     transition: 0.2s linear;
-    box-shadow: 0 0 50px orange;
+    box-shadow: 0 0 50px rgb(133, 63, 214);
 }
 
 .home-img img:hover{
     font-size: 1.8rem;
     font-weight: 500;
-    box-shadow: 0 0 25px rgb(251, 0, 255),
-                0 0 50px rgb(255, 0, 204),
-                0 0 60px orange;
+    box-shadow: 0 0 25px rgb(133, 63, 255),
+                0 0 50px rgb(133, 0, 204),
+                0 0 60px rgb(221, 0, 255);
 }
 
 .social-icons a{
