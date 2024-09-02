@@ -35,8 +35,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    overflow: auto;
-    overflow: hidden;
+    
     scroll-behavior: smooth;
 }
 
